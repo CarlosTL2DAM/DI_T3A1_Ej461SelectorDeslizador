@@ -52,6 +52,9 @@ public class APPUsoSelectorController implements Initializable {
         
         
         selector1.setItems((ArrayList<String>) lista);
+        //Permitimos que el primer selector sea ciclico
+        selector1.setRepetitive(true);
+        
         selector2.setItems((ArrayList<String>) lista2);
     }    
 
